@@ -48,7 +48,7 @@ local exit_2 = Instance.new("TextButton")
 
 --Properties:
 
-febypass.Name = "fe bypass"
+febypass.Name = "Bete"
 febypass.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 febypass.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 febypass.ResetOnSpawn = false
@@ -69,7 +69,7 @@ Inject.BorderSizePixel = 4
 Inject.Position = UDim2.new(0.0244563799, 0, 0.0445344113, 0)
 Inject.Size = UDim2.new(0, 148, 0, 225)
 Inject.Font = Enum.Font.Gotham
-Inject.Text = "LOAD FE BYPASS"
+Inject.Text = "LOAD BETE"
 Inject.TextColor3 = Color3.fromRGB(30, 0, 0)
 Inject.TextSize = 40.000
 Inject.TextWrapped = true
@@ -263,7 +263,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0.250950575, 0, 0, 0)
 TextLabel_2.Size = UDim2.new(0, 237, 0, 31)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Executor"
+TextLabel_2.Text = "Bete"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 13.000
@@ -512,7 +512,7 @@ minimize.TextScaled = true
 minimize.TextSize = 14.000
 minimize.TextWrapped = true
 
-oldexecutor.Name = "old executor"
+oldexecutor.Name = "OldExecutor"
 oldexecutor.Parent = febypass
 oldexecutor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 oldexecutor.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -581,9 +581,9 @@ local function EYBRV_fake_script() -- Inject.LocalScript
 		if injected == false then
 			local message = Instance.new("Message")
 			message.Parent = workspace
-			message.Text = "FEBYPASS SKID LOADING..."
-			wait(4)
-			message.Text = "FEBYPASS SKID LOADED DESTROY THE GAME!"
+			message.Text = "Loading..."
+			wait(2"
+			message.Text = "Loaded!"
 			wait(2)
 			message:Destroy()
 			injected = true
